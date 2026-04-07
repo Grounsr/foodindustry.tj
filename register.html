@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ru" data-page="register">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-Content-Type-Options" content="nosniff"/>
+<meta name="description" content="Зарегистрируйтесь на Международный форум пищевой промышленности. Крайний срок: 1 июля 2026. Душанбе, Таджикистан."/>
+<meta name="robots" content="index,follow"/>
+<meta property="og:title" content="Регистрация — Международный форум пищевой промышленности 2026"/>
+<meta property="og:image" content="img/hero-bg.png"/>
+<title>Регистрация — Международный форум пищевой промышленности 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<!-- ── NAV ──────────────────────────────────────────────────── -->
+<nav class="nav" id="main-nav">
+  <div class="container"><div class="nav-inner">
+    <a href="index.html" class="logo-wrap">
+      <img src="logo.svg" alt="International Food Industry Forum 2026" class="logo-img"/>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html"      data-page="home"         class="nav-link" data-i18n="nav.home">Главная</a></li>
+      <li><a href="about.html"      data-page="about"        class="nav-link" data-i18n="nav.about">О форуме</a></li>
+      <li><a href="sessions.html"   data-page="sessions"     class="nav-link" data-i18n="nav.sessions">Сессии</a></li>
+      <li><a href="programme.html"  data-page="programme"    class="nav-link" data-i18n="nav.programme">Программа</a></li>
+      <li><a href="participants.html" data-page="participants" class="nav-link" data-i18n="nav.participants">Участники</a></li>
+      <li><a href="venue.html"      data-page="venue"        class="nav-link" data-i18n="nav.venue">Место</a></li>
+      <li><a href="contact.html"    data-page="contact"      class="nav-link" data-i18n="nav.contact">Контакты</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:10px;flex-shrink:0">
+      <a href="register.html" class="btn btn-amber btn-sm active" data-i18n="nav.register.btn">Регистрация</a>
+      <div class="lang-sw">
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="ru">RU</button>
+        <button class="lang-btn" data-lang="tj">ТЈ</button>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div></div>
+</nav>
+<div class="nav-mobile" id="nav-mobile">
+  <ul>
+    <li><a href="index.html"        data-page="home"         class="nav-link" data-i18n="nav.home">Главная</a></li>
+    <li><a href="about.html"        data-page="about"        class="nav-link" data-i18n="nav.about">О форуме</a></li>
+    <li><a href="sessions.html"     data-page="sessions"     class="nav-link" data-i18n="nav.sessions">Сессии</a></li>
+    <li><a href="programme.html"    data-page="programme"    class="nav-link" data-i18n="nav.programme">Программа</a></li>
+    <li><a href="participants.html" data-page="participants" class="nav-link" data-i18n="nav.participants">Участники</a></li>
+    <li><a href="venue.html"        data-page="venue"        class="nav-link" data-i18n="nav.venue">Место</a></li>
+    <li><a href="contact.html"      data-page="contact"      class="nav-link" data-i18n="nav.contact">Контакты</a></li>
+  </ul>
+  <div class="nav-mobile-lang">
+    <button class="lang-btn" data-lang="en">EN</button>
+    <button class="lang-btn" data-lang="ru">RU</button>
+    <button class="lang-btn" data-lang="tj">ТЈ</button>
+  </div>
+</div>
+
+<!-- ── PAGE HERO ─────────────────────────────────────────────── -->
+<section class="page-hero">
+  <div class="container page-hero-inner">
+    <div class="breadcrumb">
+      <a href="index.html" data-i18n="breadcrumb.home">Главная</a>
+      <span>›</span>
+      <span data-i18n="reg.page.tag">Регистрация</span>
+    </div>
+    <h1 class="page-hero-title" data-i18n-html="reg.page.title">Забронируйте <em class="em-amber">своё место</em></h1>
+    <p class="page-hero-sub" data-i18n="reg.page.sub">Приём заявок до 1 июля 2026 года</p>
+  </div>
+</section>
+
+<!-- ── MAIN CONTENT ──────────────────────────────────────────── -->
+<section class="section bg-cream">
+  <div class="container">
+    <div class="grid-2" style="align-items:start;gap:clamp(32px,5vw,72px)">
+
+      <!-- LEFT: Info + Deadline + Funding -->
+      <div class="fade">
+        <div class="tag" data-i18n="reg.info.tag">Информация</div>
+        <h2 class="sec-title" data-i18n-html="reg.info.title">Как <em class="em-green">участвовать</em></h2>
+        <div class="divider"></div>
+        <p class="sec-body" style="max-width:100%" data-i18n="reg.info.body">Подайте заявку на участие...</p>
+
+        <!-- Deadline box -->
+        <div class="deadline-box" style="margin-top:24px">
+          <div class="dl-label" data-i18n="deadline.label">Срок подачи заявок</div>
+          <div class="dl-date" data-i18n="deadline.date">1 июля 2026</div>
+        </div>
+
+        <!-- What to bring info -->
+        <div class="file-notice" style="margin-top:20px">
+          <div class="tag tag-amber" style="margin-bottom:10px" data-i18n="upload.section.tag">Документы</div>
+          <p data-i18n="upload.section.note">Загрузите чёткое фото 3×4 см и скан паспорта.</p>
+        </div>
+
+        <!-- Financing -->
+        <div style="margin-top:24px">
+          <div class="tag tag-amber" data-i18n="reg.fund.tag">Финансирование</div>
+          <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.35rem;color:var(--green);margin:10px 0 14px" data-i18n="reg.fund.title">Финансирование форума</h3>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <div class="vf-item"><div class="vf-dot"></div><span data-i18n="reg.fund.1">—</span></div>
+            <div class="vf-item"><div class="vf-dot"></div><span data-i18n="reg.fund.2">—</span></div>
+            <div class="vf-item"><div class="vf-dot"></div><span data-i18n="reg.fund.3">—</span></div>
+          </div>
+        </div>
+
+        <!-- Image -->
+        <div class="img-card" style="height:240px;margin-top:28px;border-radius:10px;overflow:hidden">
+          <img src="img/food-exhibition.png" alt="Форум" style="width:100%;height:100%;object-fit:cover"/>
+        </div>
+      </div>
+
+      <!-- RIGHT: Registration Form -->
+      <div class="fade fd2">
+        <div class="form-card">
+
+          <!-- Form header -->
+          <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:24px">
+            <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.6rem;color:var(--green)" data-i18n="form.title">Форма заявки</h3>
+            <div class="org-pill" style="font-size:9px" data-i18n="organizer">Минпромтех РТ</div>
+          </div>
+
+          <form class="form" id="reg-form" novalidate enctype="multipart/form-data">
+
+            <!-- ── STEP 1: Personal Info ─────────────────────── -->
+            <div class="form-steps">
+              <div class="form-step active"><span class="form-step-num">1</span><span class="en-txt">Personal Info</span><span class="ru-txt">Личные данные</span><span class="tj-txt">Маълумоти шахсӣ</span></div>
+              <div class="form-step"><span class="form-step-num">2</span><span class="en-txt">Documents</span><span class="ru-txt">Документы</span><span class="tj-txt">Ҳуҷҷатҳо</span></div>
+              <div class="form-step"><span class="form-step-num">3</span><span class="en-txt">Confirm</span><span class="ru-txt">Отправить</span><span class="tj-txt">Фиристодан</span></div>
+            </div>
+
+            <!-- Name row -->
+            <div class="fg2">
+              <div class="fg">
+                <label class="fl" for="fname" data-i18n="f.fname">Имя</label>
+                <input class="fi" type="text" id="fname" name="fname" required
+                  autocomplete="given-name" data-i18n-ph="f.ph.fname" placeholder="Иван"/>
+                <span class="fe" data-i18n="f.err.req">Обязательное поле</span>
+              </div>
+              <div class="fg">
+                <label class="fl" for="lname" data-i18n="f.lname">Фамилия</label>
+                <input class="fi" type="text" id="lname" name="lname" required
+                  autocomplete="family-name" data-i18n-ph="f.ph.lname" placeholder="Иванов"/>
+                <span class="fe" data-i18n="f.err.req">Обязательное поле</span>
+              </div>
+            </div>
+
+            <!-- Organization -->
+            <div class="fg">
+              <label class="fl" for="org" data-i18n="f.org">Организация / Компания</label>
+              <input class="fi" type="text" id="org" name="org" required
+                autocomplete="organization" placeholder="..."/>
+              <span class="fe" data-i18n="f.err.req">Обязательное поле</span>
+            </div>
+
+            <!-- Position + Country -->
+            <div class="fg2">
+              <div class="fg">
+                <label class="fl" for="pos" data-i18n="f.pos">Должность</label>
+                <input class="fi" type="text" id="pos" name="pos"
+                  autocomplete="organization-title" placeholder="..."/>
+              </div>
+              <div class="fg">
+                <label class="fl" for="country" data-i18n="f.country">Страна</label>
+                <input class="fi" type="text" id="country" name="country" required
+                  autocomplete="country-name" placeholder="..."/>
+                <span class="fe" data-i18n="f.err.req">Обязательное поле</span>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="fg">
+              <label class="fl" for="email" data-i18n="f.email">Электронная почта</label>
+              <input class="fi" type="email" id="email" name="email" required
+                autocomplete="email" placeholder="mail@example.com"/>
+              <span class="fe" data-i18n="f.err.email">Некорректный email</span>
+            </div>
+
+            <!-- Phone -->
+            <div class="fg">
+              <label class="fl" for="phone" data-i18n="f.phone">Телефон / WhatsApp</label>
+              <input class="fi" type="tel" id="phone" name="phone"
+                autocomplete="tel" data-i18n-ph="f.ph.phone" placeholder="+992 ..."/>
+            </div>
+
+            <!-- Participation type -->
+            <div class="fg">
+              <label class="fl" for="ptype" data-i18n="f.type">Вид участия</label>
+              <select class="fs" id="ptype" name="ptype" required>
+                <option value="" data-i18n="f.type.def">-- Выберите --</option>
+                <option value="gov"  data-i18n="f.type.gov">Государственный</option>
+                <option value="biz"  data-i18n="f.type.biz">Бизнес</option>
+                <option value="dip"  data-i18n="f.type.dip">Дипломатический корпус</option>
+                <option value="exp"  data-i18n="f.type.exp">Эксперт</option>
+                <option value="edu"  data-i18n="f.type.edu">Образование</option>
+                <option value="med"  data-i18n="f.type.med">СМИ</option>
+                <option value="oth"  data-i18n="f.type.oth">Другое</option>
+              </select>
+              <span class="fe" data-i18n="f.err.req">Обязательное поле</span>
+            </div>
+
+            <!-- ── STEP 2: Document Uploads ─────────────────── -->
+            <div style="margin:12px 0 6px;padding-top:12px;border-top:1px solid var(--bdr)">
+              <div class="tag" data-i18n="upload.section.tag">Документы</div>
+              <h4 style="font-family:'Cormorant Garamond',serif;font-size:1.25rem;color:var(--green);margin-bottom:16px" data-i18n="upload.section.title">Необходимые документы</h4>
+            </div>
+
+            <!-- Upload grid -->
+            <div class="upload-grid">
+
+              <!-- Photo 3x4 -->
+              <div class="fg">
+                <label class="fl" data-i18n="f.photo.lbl">Фото 3×4 (обязательно)</label>
+                <div class="upload-area"
+                  data-required="true"
+                  aria-label="Загрузить фото 3×4">
+                  <!-- Hidden file input -->
+                  <input class="upload-input"
+                    type="file" id="photo3x4" name="photo3x4"
+                    accept="image/jpeg,image/png,image/jpg"
+                    data-max-mb="5" data-accept="image"
+                    aria-required="true"/>
+                  <!-- Upload UI -->
+                  <div class="upload-ui">
+                    <div class="upload-format-badge" data-i18n="f.photo.badge">3 × 4 см</div>
+                    <div class="upload-icon">🤳</div>
+                    <div class="upload-title" data-i18n="f.photo.title">Загрузите фото 3×4</div>
+                    <div class="upload-hint" data-i18n="f.photo.hint">Белый фон · JPG или PNG · Макс. 5 МБ</div>
+                    <span class="upload-btn-label" data-i18n="f.photo.btn">Выбрать файл</span>
+                  </div>
+                  <!-- Preview (shown after upload) -->
+                  <div class="upload-preview"></div>
+                  <!-- Progress -->
+                  <div class="upload-progress"><div class="upload-progress-bar"></div></div>
+                </div>
+                <span class="fe" data-i18n="f.err.file.req">Пожалуйста, загрузите файл</span>
+              </div>
+
+              <!-- Passport -->
+              <div class="fg">
+                <label class="fl" data-i18n="f.passport.lbl">Скан паспорта (обязательно)</label>
+                <div class="upload-area"
+                  data-required="true"
+                  aria-label="Загрузить паспорт">
+                  <input class="upload-input"
+                    type="file" id="passport" name="passport"
+                    accept="image/jpeg,image/png,image/jpg,application/pdf"
+                    data-max-mb="10" data-accept="doc"
+                    aria-required="true"/>
+                  <div class="upload-ui">
+                    <div class="upload-format-badge" data-i18n="f.passport.badge">Скан паспорта</div>
+                    <div class="upload-icon">🪪</div>
+                    <div class="upload-title" data-i18n="f.passport.title">Загрузите страницу паспорта</div>
+                    <div class="upload-hint" data-i18n="f.passport.hint">JPG, PNG или PDF · Макс. 10 МБ</div>
+                    <span class="upload-btn-label" data-i18n="f.passport.btn">Выбрать файл</span>
+                  </div>
+                  <div class="upload-preview"></div>
+                  <div class="upload-progress"><div class="upload-progress-bar"></div></div>
+                </div>
+                <span class="fe" data-i18n="f.err.file.req">Пожалуйста, загрузите файл</span>
+              </div>
+
+            </div><!-- /upload-grid -->
+
+            <!-- ── STEP 3: Message + Submit ──────────────────── -->
+            <!-- Message -->
+            <div class="fg">
+              <label class="fl" for="msg" data-i18n="f.msg">Сообщение (необязательно)</label>
+              <textarea class="ft" id="msg" name="msg" rows="3"></textarea>
+            </div>
+
+            <!-- Submit section -->
+            <div class="form-submit-section">
+              <button type="submit" class="btn btn-amber btn-full btn-lg" style="font-size:14px" data-i18n="btn.submit">
+                Отправить заявку
+              </button>
+              <p class="privacy-note" data-i18n="f.privacy">
+                Отправляя форму, вы соглашаетесь на обработку персональных данных в целях регистрации на форум.
+              </p>
+            </div>
+
+            <!-- Success message -->
+            <div class="form-success" id="reg-success" style="display:none">
+              <strong data-i18n="f.success">✓ Спасибо! Ваша заявка принята.</strong>
+              <br/><br/>
+              <span style="font-size:.88rem;color:var(--txt-md)">
+                <span class="en-txt">Your registration has been received. The organizing committee will review your documents and contact you by email within 5 business days.</span>
+                <span class="ru-txt">Ваша заявка получена. Организационный комитет рассмотрит ваши документы и свяжется с вами по электронной почте в течение 5 рабочих дней.</span>
+                <span class="tj-txt">Дархости шумо қабул шуд. Кумитаи тадорукот ҳуҷҷатҳои шуморо баррасӣ карда, дар давоми 5 рӯзи корӣ бо шумо тамос мегирад.</span>
+              </span>
+            </div>
+
+          </form>
+        </div><!-- /form-card -->
+      </div><!-- /right col -->
+
+    </div><!-- /grid-2 -->
+  </div>
+</section>
+
+<!-- ── FAQ ─────────────────────────────────────────────────── -->
+<section class="section bg-white">
+  <div class="container">
+    <div class="grid-2">
+      <div class="fade">
+        <div class="tag" data-i18n="faq.tag">FAQ</div>
+        <h2 class="sec-title" data-i18n-html="faq.title">Часто задаваемые <em class="em-green">вопросы</em></h2>
+        <div class="divider"></div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <div class="faq-q"><span class="faq-q-text" data-i18n="faq.1.q">—</span><span class="faq-icon">+</span></div>
+            <div class="faq-a" data-i18n="faq.1.a">—</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q"><span class="faq-q-text" data-i18n="faq.2.q">—</span><span class="faq-icon">+</span></div>
+            <div class="faq-a" data-i18n="faq.2.a">—</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q"><span class="faq-q-text" data-i18n="faq.3.q">—</span><span class="faq-icon">+</span></div>
+            <div class="faq-a" data-i18n="faq.3.a">—</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q"><span class="faq-q-text" data-i18n="faq.4.q">—</span><span class="faq-icon">+</span></div>
+            <div class="faq-a" data-i18n="faq.4.a">—</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q"><span class="faq-q-text" data-i18n="faq.5.q">—</span><span class="faq-icon">+</span></div>
+            <div class="faq-a" data-i18n="faq.5.a">—</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q"><span class="faq-q-text" data-i18n="faq.6.q">—</span><span class="faq-icon">+</span></div>
+            <div class="faq-a" data-i18n="faq.6.a">—</div>
+          </div>
+        </div>
+      </div>
+      <div class="fade fd2">
+        <div class="img-card" style="height:380px;margin-bottom:18px">
+          <img src="img/culinary-festival.png" alt="Кулинарный фестиваль" style="width:100%;height:100%;object-fit:cover"/>
+        </div>
+        <div class="img-card" style="height:230px">
+          <img src="img/factory.png" alt="Производство" style="width:100%;height:100%;object-fit:cover"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT STRIP ─────────────────────────────────────────── -->
+<div class="contact-strip">
+  <div class="container"><div class="contact-strip-inner">
+    <div class="cs-item"><div class="cs-label">Email</div><div class="cs-val"><a href="mailto:info@foodindustry.tj">info@foodindustry.tj</a></div></div>
+    <div class="cs-item"><div class="cs-label" data-i18n="ci.phone.lbl">Телефон</div><div class="cs-val"><a href="tel:+992">+992 (37) XXX XX XX</a></div></div>
+    <div class="cs-item"><div class="cs-label">WhatsApp / Telegram</div><div class="cs-val">+992 98 XXX XX XX</div></div>
+    <div class="cs-item"><div class="cs-label" data-i18n="ci.org.lbl">Организатор</div><div class="cs-val" style="font-size:.85rem;max-width:210px;line-height:1.3" data-i18n="ci.org.val">Минпромтех РТ</div></div>
+  </div></div>
+</div>
+
+<!-- ── FOOTER ─────────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img src="logo.svg" alt="Forum Logo" class="footer-logo-img"/>
+        <p data-i18n="footer.tagline">Международный форум пищевой промышленности. 20–21 августа 2026 года. Душанбе.</p>
+      </div>
+      <div class="footer-col">
+        <h5 data-i18n="footer.prog">Программа</h5>
+        <ul>
+          <li><a href="sessions.html"     data-i18n="nav.sessions">Сессии</a></li>
+          <li><a href="programme.html"    data-i18n="nav.programme">Программа</a></li>
+          <li><a href="participants.html" data-i18n="nav.participants">Участники</a></li>
+          <li><a href="venue.html"        data-i18n="nav.venue">Место</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5 data-i18n="footer.links">Навигация</h5>
+        <ul>
+          <li><a href="index.html"   data-i18n="nav.home">Главная</a></li>
+          <li><a href="about.html"   data-i18n="nav.about">О форуме</a></li>
+          <li><a href="register.html" data-i18n="nav.register">Регистрация</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Контакты</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5 data-i18n="footer.contact">Контакты</h5>
+        <ul>
+          <li><a href="mailto:info@foodindustry.tj">info@foodindustry.tj</a></li>
+          <li><a href="tel:+992">+992 (37) XXX XX XX</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer.copy">© 2026 Международный форум пищевой промышленности, Душанбе.</p>
+      <div class="footer-lang lang-sw">
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="ru">RU</button>
+        <button class="lang-btn" data-lang="tj">ТЈ</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-top" id="back-top" aria-label="Наверх">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script src="js/translations.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Patch form submit to show custom success UI -->
+<script>
+(function(){
+  document.addEventListener('DOMContentLoaded', function(){
+    var form = document.getElementById('reg-form');
+    var success = document.getElementById('reg-success');
+    if (!form || !success) return;
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      // Basic validation
+      var ok = true;
+      form.querySelectorAll('[required]').forEach(function(f){
+        var g = f.closest('.fg');
+        var fe = g ? g.querySelector('.fe') : null;
+        if (g) g.classList.remove('error');
+        if (!f.value.trim()){
+          ok = false;
+          if (g) g.classList.add('error');
+          if (fe) fe.textContent = (T[window._lang||'ru']||{})['f.err.req']||'Обязательное поле';
+        } else if (f.type==='email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(f.value)){
+          ok = false;
+          if (g) g.classList.add('error');
+          if (fe) fe.textContent = (T[window._lang||'ru']||{})['f.err.email']||'Некорректный email';
+        }
+      });
+      // Validate uploads
+      var uploadsOk = true;
+      form.querySelectorAll('.upload-area[data-required="true"]').forEach(function(area){
+        var inp = area.querySelector('.upload-input');
+        if (inp && (!inp.files || !inp.files[0])){
+          uploadsOk = false;
+          area.classList.add('error-state');
+          var g = area.closest('.fg');
+          if (g){
+            g.classList.add('error');
+            var fe = g.querySelector('.fe');
+            if (fe) fe.textContent = (T[window._lang||'ru']||{})['f.err.file.req']||'Загрузите файл';
+          }
+        }
+      });
+      if (!ok || !uploadsOk) return;
+      // Success
+      form.querySelectorAll('input,select,textarea,button,.upload-area').forEach(function(el){
+        el.disabled = true;
+        el.style.pointerEvents='none';
+      });
+      success.style.display = 'block';
+      success.scrollIntoView({behavior:'smooth', block:'center'});
+    });
+  });
+})();
+</script>
+
+<script data-pplx-inline-edit>
+(function(){
+  if(window===window.top)return;
+  function inlineAll(orig,clone){
+    if(orig.nodeType!==1)return;
+    try{
+      var cs=getComputedStyle(orig);
+      var t='';
+      for(var i=0;i<cs.length;i++){t+=cs[i]+':'+cs.getPropertyValue(cs[i])+';';}
+      clone.style.cssText=t;
+    }catch(e){}
+    var oc=orig.children,cc=clone.children;
+    for(var j=0;j<oc.length&&j<cc.length;j++){inlineAll(oc[j],cc[j]);}
+  }
+  function stripExternal(clone){
+    var imgs=clone.querySelectorAll('img');
+    for(var i=0;i<imgs.length;i++){
+      var s=imgs[i].getAttribute('src');
+      if(s&&!s.startsWith('data:'))imgs[i].removeAttribute('src');
+    }
+    var all=clone.querySelectorAll('*');
+    for(var i=0;i<all.length;i++){
+      var st=all[i].style.cssText;
+      if(st&&st.indexOf('url(')>=0){
+        all[i].style.cssText=st.replace(/url\(["']?(?!data:)[^)"']*["']?\)/gi,'none');
+      }
+    }
+  }
+  window.addEventListener('message',function(e){
+    if(!e.data||e.data.type!=='INLINE_EDIT_CAPTURE_REQUEST')return;
+    var scrollX=window.scrollX||window.pageXOffset||0;
+    var scrollY=window.scrollY||window.pageYOffset||0;
+    var w=window.innerWidth,h=window.innerHeight;
+    try{
+      var clone=document.documentElement.cloneNode(true);
+      var rm=clone.querySelectorAll('script,link[rel="stylesheet"],style');
+      for(var i=0;i<rm.length;i++){rm[i].remove();}
+      inlineAll(document.documentElement,clone);
+      stripExternal(clone);
+      var html=new XMLSerializer().serializeToString(clone);
+      var svg='<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'">'
+        +'<foreignObject width="100%" height="100%">'
+        +'<div xmlns="http://www.w3.org/1999/xhtml" style="width:'+w+'px;height:'+h+'px;overflow:hidden">'
+        +'<div style="transform:translate(-'+scrollX+'px,-'+scrollY+'px);transform-origin:top left">'
+        +html+'</div></div></foreignObject></svg>';
+      var svgUrl='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+      var img=new Image();
+      img.onload=function(){
+        var c=document.createElement('canvas');c.width=w;c.height=h;
+        c.getContext('2d').drawImage(img,0,0);
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:c.toDataURL('image/png'),scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.onerror=function(){
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.src=svgUrl;
+    }catch(err){
+      window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+    }
+  });
+})();
+</script></body>
+</html>
